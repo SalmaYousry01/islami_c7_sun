@@ -12,7 +12,7 @@ class MyThemeData {
         headline1: TextStyle(
             fontSize: 30, fontWeight: FontWeight.bold, color: colorBlack),
         subtitle1: TextStyle(
-            fontSize: 20, fontWeight: FontWeight.normal, color: colorBlack)),
+            fontSize: 25, fontWeight: FontWeight.bold, color: colorBlack)),
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
         backgroundColor: colorGold,
         selectedItemColor: colorBlack,
