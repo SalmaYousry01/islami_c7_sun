@@ -137,7 +137,7 @@ class QuranTab extends StatelessWidget {
                 shrinkWrap: true,
                 itemCount: sura_name.length,
                 itemBuilder: (context, index) {
-                  return SuraNameItem(sura_name[index]);
+                  return SuraNameItem(sura_name[index],index);
                 }),
           )
         ],
